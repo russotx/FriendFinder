@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Friend Finder Survey</title>
+<title>Buddy Match Survey</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Acme|Amatic+SC|Boogaloo|Comfortaa|Handlee|Open+Sans+Condensed:300|Paytone+One|Poppins" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css" type="text/css" >
 </head>
 <body>
@@ -12,13 +13,13 @@
     <p>We're all a people person when we find the right people.</p>
   </header>
   <main>
-    <h3>Tell Us A Little About Yourself</h3>
+    <h3>Tell Us A Little About Yourself!</h3>
     <h4>The Basics</h4>
         <h5 class='select-heading'>Full Name (Required)</h5>
         <input type='text' id='full-name' class='friend-form' name='required-info'>
         <h5>Link To Your Headshot (Required)</h5>
         <input type='text' id='photo-link' class='friend-form' name='required-info'>  
-        <h4>Help Us Build Your Personality Profile</h4>
+        <h4>Now We'll Build Your Personality Profile</h4>
           <h5 class='select-heading'>You would rather have a boat than a sports car.</h5>
           <select id="question-1" class='friend-form' required>
             <option class ="holder-text" value="" disabled selected>Please choose one...</option>
@@ -109,10 +110,13 @@
             <option value="2"> 2 :: Not really.</option>
             <option value="1"> 1 :: Not me at all!</option>
           </select>
-          <button type='submit' id='profile-submit'><h2>Submit</h2></button>
+          <button type='submit' id='profile-submit'><span>Submit</span></button>
       
 
   </main>  
+  <footer>
+      <p>copyright&copy; 2017 Daniel Russo</p>
+  </footer>
   <div id="modal" class="modal closed">
     <button type="button" id="close">&times;</button>
     <section id="modal-content">
