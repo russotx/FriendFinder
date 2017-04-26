@@ -15,8 +15,18 @@ $('#profile-submit').on('click',function(event){
     datatype: 'json',
     contentType: "application/json; charset=utf-8",
     data: JSON.stringify(profile)
+  }).done(function(bestbud){
+      let pic = $('<img>').attr('src',bestbud.photo);
+      let name = $('<h2>').append(bestbud.name);
+      $('#modal-content').append(pic,name);
+      $('#modal').toggleClass('closed');
+      $('#modal-overlay').toggleClass('closed');
   });
 });
+
+$('#close').on('click',function(event){
+  $('#modal').toggleClass('closed');
+ });
 
 
 
