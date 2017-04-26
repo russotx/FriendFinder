@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Friend Finder Survey</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/style.css" type="text/css" >
+</head>
+<body>
+  <header>
+    <h1>Buddy Match</h1>
+    <p>We're all a people person when we find the right people.</p>
+  </header>
+  <main>
+    <h3>Tell Us A Little About Yourself</h3>
+    <h4>The Basics</h4>
+        <h5 class='select-heading'>Full Name (Required)</h5>
+        <input type='text' id='full-name' class='friend-form' name='required-info'>
+        <h5>Link To Your Headshot (Required)</h5>
+        <input type='text' id='photo-link' class='friend-form' name='required-info'>  
+        <h4>Help Us Build Your Personality Profile</h4>
+          <h5 class='select-heading'>You would rather have a boat than a sports car.</h5>
+          <select id="question-1" class='friend-form' required>
+            <option class ="holder-text" value="" disabled selected>Please choose one...</option>
+            <option value="5"> 5 :: This is definitely me!</option>
+            <option value="4"> 4 :: Yes, sometimes.</option>
+            <option value="3"> 3 :: I don't really care.</option>
+            <option value="2"> 2 :: Not really.</option>
+            <option value="1"> 1 :: Not me at all!</option>
+          </select>
+          <h5 class='select-heading'>You prefer craft beer over liquor.</h5>
+          <select id="question-2" class='friend-form' required>
+            <option class ="holder-text" value="" disabled selected>Please choose one...</option>
+            <option value="5"> 5 :: This is definitely me!</option>
+            <option value="4"> 4 :: Yes, sometimes.</option>
+            <option value="3"> 3 :: I don't really care.</option>
+            <option value="2"> 2 :: Not really.</option>
+            <option value="1"> 1 :: Not me at all!</option>
+          </select>
+          <h5 class='select-heading'>You prefer fishing over hunting.</h5>
+          <select id="question-3" class='friend-form' required>
+            <option class ="holder-text" value="" disabled selected>Please choose one...</option>
+            <option value="5"> 5 :: This is definitely me!</option>
+            <option value="4"> 4 :: Yes, sometimes.</option>
+            <option value="3"> 3 :: I don't really care.</option>
+            <option value="2"> 2 :: Not really.</option>
+            <option value="1"> 1 :: Not me at all!</option>
+          </select>
+          <h5 class='select-heading'>You would rather grab dinner with a close friend than an A-list celebrity</h5>
+          <select id="question-4" class='friend-form' required>
+            <option class ="holder-text" value="" disabled selected>Please choose one...</option>
+            <option value="5"> 5 :: This is definitely me!</option>
+            <option value="4"> 4 :: Yes, sometimes.</option>
+            <option value="3"> 3 :: I don't really care.</option>
+            <option value="2"> 2 :: Not really.</option>
+            <option value="1"> 1 :: Not me at all!</option>
+          </select>
+          <h5 class='select-heading'>You prefer one simple tool over a collection of specialized gadgets.</h5>
+          <select id="question-5" class='friend-form' required>
+            <option class ="holder-text" value="" disabled selected>Please choose one...</option>
+            <option value="5"> 5 :: This is definitely me!</option>
+            <option value="4"> 4 :: Yes, sometimes.</option>
+            <option value="3"> 3 :: I don't really care.</option>
+            <option value="2"> 2 :: Not really.</option>
+            <option value="1"> 1 :: Not me at all!</option>
+          </select>
+          <h5 class='select-heading'>You prefer to be in the trenches rather than providing oversight.</h5>
+          <select id="question-6" class='friend-form' required>
+            <option class ="holder-text" value="" disabled selected>Please choose one...</option>
+            <option value="5"> 5 :: This is definitely me!</option>
+            <option value="4"> 4 :: Yes, sometimes.</option>
+            <option value="3"> 3 :: I don't really care.</option>
+            <option value="2"> 2 :: Not really.</option>
+            <option value="1"> 1 :: Not me at all!</option>
+          </select>
+          <h5 class='select-heading'>You would rather have one perfect pair of boots than 20 pairs of shoes.</h5>
+          <select id="question-7" class='friend-form' required>
+            <option class ="holder-text" value="" disabled selected>Please choose one...</option>
+            <option value="5"> 5 :: This is definitely me!</option>
+            <option value="4"> 4 :: Yes, sometimes.</option>
+            <option value="3"> 3 :: I don't really care.</option>
+            <option value="2"> 2 :: Not really.</option>
+            <option value="1"> 1 :: Not me at all!</option>
+          </select>
+          <h5 class='select-heading'>You feel comfortable working without instructions.</h5>
+          <select id="question-8" class='friend-form' required>
+            <option class ="holder-text" value="" disabled selected>Please choose one...</option>
+            <option value="5"> 5 :: This is definitely me!</option>
+            <option value="4"> 4 :: Yes, sometimes.</option>
+            <option value="3"> 3 :: I don't really care.</option>
+            <option value="2"> 2 :: Not really.</option>
+            <option value="1"> 1 :: Not me at all!</option>
+          </select>
+          <h5 class='select-heading'>If you had a time machine you would rather experience an important moment in history than the distant future.</h5>
+          <select id="question-9" class='friend-form' required>
+            <option class ="holder-text" value="" disabled selected>Please choose one...</option>
+            <option value="5"> 5 :: This is definitely me!</option>
+            <option value="4"> 4 :: Yes, sometimes.</option>
+            <option value="3"> 3 :: I don't really care.</option>
+            <option value="2"> 2 :: Not really.</option>
+            <option value="1"> 1 :: Not me at all!</option>
+          </select>
+          <h5 class='select-heading'>You would rather swim in the ocean than hike in the mountains.</h5>
+          <select id="question-10" class='friend-form'>
+            <option class ="holder-text" value="" disabled selected>Please choose one...</option>
+            <option value="5"> 5 :: This is definitely me!</option>
+            <option value="4"> 4 :: Yes, sometimes.</option>
+            <option value="3"> 3 :: I don't really care.</option>
+            <option value="2"> 2 :: Not really.</option>
+            <option value="1"> 1 :: Not me at all!</option>
+          </select>
+          <button type='submit' id='profile-submit'><h2>Submit</h2></button>
+      
+
+  </main>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="assets/frontend.js"></script>
+</body>
+</html>
